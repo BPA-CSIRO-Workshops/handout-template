@@ -74,38 +74,15 @@ latest PDFs built from this file to see what the end result is:</p>
 <li>Answers to questions displayed in red text</li>
 </ul>
 </li>
-</ul><h1>
-<a name="how-to-use-this-style" class="anchor" href="#how-to-use-this-style"><span class="octicon octicon-link"></span></a>How to Use this Style</h1>
-
-<p>This still needs to be documented. However, we'll probably provide an example
-repository showing how to use the various features of this style file. Stay tuned.</p>
+</ul>
 
 <h1>
-<a name="installing-the-latex-environment" class="anchor" href="#installing-the-latex-environment"><span class="octicon octicon-link"></span></a>Installing the LateX Environment</h1>
+<a name="dev" class="anchor" href="#dev"><span class="octicon octicon-link"></span></a>Handout Document Developers</h1>
 
-<p>In order to build a PDF from LaTeX source files. You'll first need to install LaTeX
-and some other LaTeX packages to get this style file to work.</p>
-
-<p>We provide a script (<code>developers/texlive_install.sh</code>) which downloads and installs texlive,
-as well as all the packages required for this style. Simply clone this
-repository and run that script and you should have LaTeX ready to go in just
-a few minutes:</p>
-
-<div class="highlight highlight-bash"><pre>git clone https://github.com/BioplatformsAustralia/LaTeX-style.git
-<span class="nb">cd </span>LaTeX-style/developers
-sudo ./texlive_install.sh
-</pre></div>
-
-<p>By default, the above script will download LaTeX packages from the default CTAN mirror.
-You will benefit from faster downloads and a quicker install if you use a mirror closer
-to where you are. To change the mirror, simply set the environmental variable
-<code>CTAN_MIRROR_URL</code> to point to your favourite CTAN mirror (<a href="http://ctan.org/mirrors">http://ctan.org/mirrors</a>):</p>
-
-<div class="highlight highlight-bash"><pre><span class="nb">export </span><span class="nv">CTAN_MIRROR_URL</span><span class="o">=</span><span class="s1">'http://mirror.aarnet.edu.au/pub/CTAN'</span>
-git clone https://github.com/BioplatformsAustralia/LaTeX-style.git
-<span class="nb">cd </span>LaTeX-style/developers
-sudo -E ./texlive_install.sh
-</pre></div>
+<p>Are you someone looking to develop handout documents for your own hands-on workshop? Would you like to contribute
+to an existing handout document that was based on the LaTeX style supplied by the <a href="https://github.com/BioplatformsAustralia/handout-template">handout-template</a>
+repository? If so, you can find details of how to setup your system, how to use the LaTeX style and how to contribute
+over on the <a href="developers.html">developers page</a>.</p>
 
 <h1>
 <a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h1>

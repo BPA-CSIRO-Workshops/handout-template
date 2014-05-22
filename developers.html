@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Handout: Style and Template by BioplatformsAustralia</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Handout: Style and Template</h1>
+        <p>LaTeX style files for training workshop handouts</p>
+
+        <p class="view"><a href="https://github.com/BioplatformsAustralia/handout-template">View the Project on GitHub <small>BioplatformsAustralia/handout-template</small></a></p>
+
+
+        <ul>
+          <li><a href="pdfs-latest/trainee_example.pdf">Download <strong>Trainee PDF</strong></a></li>
+          <li><a href="pdfs-latest/trainer_example.pdf">Download <strong>Trainer PDF</strong></a></li>
+          <li><a href="https://github.com/BioplatformsAustralia/handout-template">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+
+<h1>
+<a name="how-to-use-this-style" class="anchor" href="#how-to-use-this-style"><span class="octicon octicon-link"></span></a>How to Use this Style</h1>
+
+<p>This still needs to be documented. However, we'll probably provide an example
+repository showing how to use the various features of this style file. Stay tuned.</p>
+
+<h1>
+<a name="installing-the-latex-environment" class="anchor" href="#installing-the-latex-environment"><span class="octicon octicon-link"></span></a>Installing the LateX Environment</h1>
+
+<p>In order to build a PDF from LaTeX source files. You'll first need to install LaTeX
+and some other LaTeX packages to get this style file to work.</p>
+
+<p>We provide a script (<code>developers/texlive_install.sh</code>) which downloads and installs texlive,
+as well as all the packages required for this style. Simply clone this
+repository and run that script and you should have LaTeX ready to go in just
+a few minutes:</p>
+
+<div class="highlight highlight-bash"><pre>git clone https://github.com/BioplatformsAustralia/LaTeX-style.git
+<span class="nb">cd </span>LaTeX-style/developers
+sudo ./texlive_install.sh
+</pre></div>
+
+<p>By default, the above script will download LaTeX packages from the default CTAN mirror.
+You will benefit from faster downloads and a quicker install if you use a mirror closer
+to where you are. To change the mirror, simply set the environmental variable
+<code>CTAN_MIRROR_URL</code> to point to your favourite CTAN mirror (<a href="http://ctan.org/mirrors">http://ctan.org/mirrors</a>):</p>
+
+<div class="highlight highlight-bash"><pre><span class="nb">export </span><span class="nv">CTAN_MIRROR_URL</span><span class="o">=</span><span class="s1">'http://mirror.aarnet.edu.au/pub/CTAN'</span>
+git clone https://github.com/BioplatformsAustralia/LaTeX-style.git
+<span class="nb">cd </span>LaTeX-style/developers
+sudo -E ./texlive_install.sh
+</pre></div>
+
+	</section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/BioplatformsAustralia">Bioplatforms Australia and CSIRO Bioinformatics Core</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
