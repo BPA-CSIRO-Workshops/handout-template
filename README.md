@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/BPA-CSIRO-Workshops/handout-template.png?branch=master)](https://travis-ci.org/BPA-CSIRO-Workshops/handout-template)
 
 Purpose
-======
+=======
 This repository contains style information for use with LaTeX to generate
 consistently styled handout documents for use in hands-on bioinformatics
 training workshops.
