@@ -7,8 +7,8 @@ Table of Contents
 * [Do You Belong Here?](#do-you-belong-here)
 * [An Example Provided](#an-example-provided)
 * [Starting a New Handout Project](#starting-a-new-handout-project)
-  * [1. Installing Hub](#1-installing-hub)
-  * [2. Create a New GitHub Repo Based on handout-template](#2-create-a-new-github-repo-based-on-handout-template)
+  * [Installing Hub](#1-installing-hub)
+  * [Create a New GitHub Repo Based on handout-template](#2-create-a-new-github-repo-based-on-handout-template)
 * [Merge in Updates From handout-template](#merge-in-updates-from-handout-template)
 * [Credits](#credits)
 * [License](#license)
@@ -49,8 +49,8 @@ is going to differ significantly from the way this repository looks right now.
 
 I recommend the following approach:
 
-1. Installing Hub
------------------
+Installing Hub
+--------------
 To install [`hub`](https://hub.github.com/) you first need to install `rake`, a ruby make-like utility. On Ubuntu this can be achieved using `apt-get`:
 
 ```bash
@@ -65,8 +65,8 @@ sudo rake install prefix=/usr/local
 
 Wherever we need to use `hub`, as opposed to `git`, we'll be explicit in the code which follows.
 
-2. Create a New GitHub Repo Based on handout-template
------------------------------------------------------
+Create a New GitHub Repo Based on handout-template
+--------------------------------------------------
 
 ```bash
 my_new_handout_project='my_new_handout'
