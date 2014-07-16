@@ -78,6 +78,9 @@ cd "${my_new_handout_project}"
 # Create a new project on GitHub to house your new handout project
 hub create "${my_new_handout_project}"
 
+# If you want to create the repository within an organisation, you can do something like:
+# my_organisation='BPA-CSIRO-Workshops'; hub create "${my_organisation}/${my_new_handout_project}"
+
 # Push the code into your newly created repository on GitHub
 git push -u origin master
 ```
