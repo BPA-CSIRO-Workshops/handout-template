@@ -9,6 +9,9 @@ Table of Contents
 * [Starting a New Handout Project](#starting-a-new-handout-project)
   * [Installing Hub](#1-installing-hub)
   * [Create a New GitHub Repo Based on handout-template](#2-create-a-new-github-repo-based-on-handout-template)
+* [Adding New Content to Your Handout](#adding-new-content-to-your-handout)
+  * [Using the Supplied Paragraph Text Environments](#using-the-supplied-paragraph-text-environments)
+  * [Adding a Table](#adding-a-table)
 * [Merge in Updates From handout-template](#merge-in-updates-from-handout-template)
 * [Credits](#credits)
 * [License](#license)
@@ -90,6 +93,34 @@ You can now modify the files and push the changes to your new GitHub repo:
 ```bash
 git push
 ```
+
+Adding New Content to Your Handout
+==================================
+
+Using the Supplied Paragraph Text Environments
+----------------------------------------------
+Adding paragraph text to the handout is simple, thanks to the style file
+provided. You simply place your text within one of the paragraph
+"environments" to have it styled appropriately. In practice, this means you
+place a ```\begin{environment-name}``` before your paragraph text, and
+```\end{environment-name}``` after your paragraph text. Here is a table of
+the environments supplied in the style file in this template:
+
+| Environment Name | Purpose |
+| ---------------- | ----- |
+| information      | For providing background information to the reader. |
+| steps            | For providing instructions on the steps the reader is required to take. |
+| note             | For providing additional information for future reference. |
+| warning          | For providing a warning which should be read before the reader continues. |
+| questions        | For posing questions to the reader. |
+| answer           | For providing the answer to the preceeding question. |
+| bonus            | For providing bonus information, excercises and questions to a quickly advancing reader. |
+| advanced         | For providing advanced information, excercises and questions to a very quickly advancing reader. |
+| lstlisting       | For providing code to the reader. |
+
+Adding a Table
+--------------
+Adding a table in LaTeX is somewhat more difficult than adding standard paragraph text. The most straightforward way to accomplish this is by using an [online LaTeX table generator](http://www.tablesgenerator.com).
 
 Merge in Updates From handout-template
 ======================================
