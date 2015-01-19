@@ -113,9 +113,9 @@ the environments supplied in the style file in this template:
 | note             | For providing additional information for future reference. |
 | warning          | For providing a warning which should be read before the reader continues. |
 | questions        | For posing questions to the reader. |
-| answer           | For providing the answer to the preceeding question. |
-| bonus            | For providing bonus information, excercises and questions to a quickly advancing reader. |
-| advanced         | For providing advanced information, excercises and questions to a very quickly advancing reader. |
+| answer           | For providing the answer to the preceding question. |
+| bonus            | For providing bonus information, exercises and questions to a quickly advancing reader. |
+| advanced         | For providing advanced information, exercises and questions to a very quickly advancing reader. |
 | lstlisting       | For providing code to the reader. |
 
 Adding a Table
