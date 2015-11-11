@@ -33,8 +33,8 @@ be scared off by the prospect of trying things like:
 The idea is to help you go from the barebones contents of this repository to a
 fully-fledge LaTeX document like the one developed for an [NGS Workshop](https://github.com/BPA-CSIRO-Workshops/ngs-handout):
 
- * [Trainee Handout PDF](http://bpa-csiro-workshops.github.io/ngs-handout/pdfs-latest/trainee_handout.pdf)
- * [Trainer Handout PDF](http://bpa-csiro-workshops.github.io/ngs-handout/pdfs-latest/trainer_handout.pdf)
+ * [Trainee Handout PDF](http://bpa-csiro-workshops.github.io/btp-workshop-ngs/pdfs-latest/trainee_handout.pdf)
+ * [Trainer Handout PDF](http://bpa-csiro-workshops.github.io/btp-workshop-ngs/pdfs-latest/trainer_handout.pdf)
 
 An Example Provided
 ===================
